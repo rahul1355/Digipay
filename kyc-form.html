@@ -2,7 +2,7 @@
 {% load static %}
 {% block content %}
     <!-- Dashboard Section start -->
-    <head>
+<head>
         <style>
             #id_image{
                 background-color: #432f9f;
@@ -116,7 +116,7 @@
                                 </ul>
                             </div>
                             <div class="owner-action">
-                                <a href="{% url 'userauths:sign-out' %}">
+                                <a href="#">
                                     <img src="{% static 'assets1/images/icon/logout.png' %}" alt="image">
                                     Logout
                                 </a>
@@ -168,7 +168,7 @@
                                             <div class="col-md-6">
                                                 <div class="single-input">
                                                     <label for="fName">Mobile Number</label>
-                                                   {{form.mobile}}
+                                                   {{form.phone}}
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
@@ -191,8 +191,8 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="single-input">
-                                                    <label for="fName">Fax</label>
-                                                   {{form.fax}}
+                                                    <label for="fName">Email</label>
+                                                   {{form.email}}
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
@@ -203,16 +203,19 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="single-input">
+                                                    <label for="fName">Gender</label>
                                                    {{form.gender}}
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="single-input">
-                                                   {{form.marrital_status}}
+                                                    <label for="fName">Marital Status</label>
+                                                   {{form.marital_status}}
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="single-input">
+                                                    <label for="fName">Identity type</label>
                                                    {{form.identity_type}}
                                                 </div>
                                             </div>
@@ -450,7 +453,7 @@
                                             </div>
                                             <div class="single-card">
                                                 <button type="button" class="reg w-100" data-bs-toggle="modal" data-bs-target="#transactionsMod">
-                                                    <img src="{% static 'assets1/images/paylio-card.png' %}" alt="image" class="w-100">
+                                                    <img src="#" alt="image" class="w-100">
                                                 </button>
                                             </div>
                                             <div class="single-card">
