@@ -64,7 +64,7 @@
                                         <b>amount</b>
                                     </li>
                                     <li>
-                                        <span>E-mail of receiver</span>
+                                        <span>E-mail </span>
                                         <b>email</b>
                                     </li>
                                     <li>
